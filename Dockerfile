@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 
 MAINTAINER reload
 
-ARG version=master
+ARG version=release-710-02
 LABEL version=${version}
 
 WORKDIR /opt
